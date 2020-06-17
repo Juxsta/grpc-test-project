@@ -1,0 +1,18 @@
+syntax="proto3";
+package greet_sum;
+option go_package="greetsumpb";
+
+message Greeting {
+    int32 arg1 = 1;
+    int32 arg2 = 2;
+}
+message GreetRequest{
+    Greeting greeting = 1;
+}
+message GreetResponse {
+    int64 res=1;
+}
+
+service GreetService {
+    rpc Greet(GreetRequest) returns (GreetResponse){};
+}

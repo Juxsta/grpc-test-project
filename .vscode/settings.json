@@ -1,0 +1,9 @@
+{
+    "protoc": {
+        "path": "C:/ProgramData/chocolatey/lib/protoc/tools/bin/protoc.exe",
+        "compile_on_save": false,
+        "options": [
+            "--go_out=plugins=grpc:."
+        ]
+    }
+}
