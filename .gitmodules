@@ -1,0 +1,6 @@
+[submodule "protos"]
+	path = protos
+	url = https://github.com/googleapis/api-common-protos/
+[submodule "grpc"]
+	path = grpc
+	url = https://github.com/grpc-ecosystem/grpc-gateway
